@@ -147,8 +147,9 @@ section {
         display: grid;
         grid-gap: 24px
     }
-
-    .grid-photography,.grid-projects {
+     
+    
+     .grid-photography,.grid-projects {
         grid-template-columns: repeat(2,1fr)
     }
 
