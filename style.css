@@ -11,8 +11,8 @@
     font-style:normal;
     font-weight:700;
     src:url(/fonts/vollkorn-bold.woff2) format("woff2"),url(/fonts/vollkorn-bold.woff) format("woff")
-   }
-   *,:after,:before {
+   } */
+   /* *,:after,:before {
     box-sizing:border-box
    } */
    /* a,body,div,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,hgroup,html,img,li,p,section,span,ul {
@@ -35,7 +35,8 @@
    /* html {
     -webkit-font-smoothing:antialiased
    } */
-   /* body {
+   /* styled the body, added background color, font-family, font size e.t.c */
+   body {
     background-color:#0a0a0a;
     border-top:13px solid #3a3a3a;
     color:#ccc;
@@ -44,7 +45,7 @@
     line-height:1.5;
     padding:40px;
     text-align:center
-   } */
+   }
    /* @media (min-width:768px) {
     body {
      padding:56px
