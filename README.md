@@ -11,7 +11,7 @@ Rebuilding a website is exciting, but it can also be quite stressful. It is all 
  - Css grids
 
 ## Live Link
-- https://kudakwashe24.github.io/Rebuild-Jon-Chretien/
+- https://kudakwashe24.github.io/Rebuild-Jon-Chretien/index.html
 
 ## Technologies Used
 
@@ -57,6 +57,6 @@ Tools:
 Kudakwashe Mukombachoto - 2018
 
 
-Visit site here: https://kudakwashe24.github.io/Rebuild-Jon-Chretien/
+Visit site here: https://kudakwashe24.github.io/Rebuild-Jon-Chretien/index.html
 
 Thank You...
