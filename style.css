@@ -22,19 +22,22 @@
    /* figcaption,figure,footer,header,hgroup,section {
     display:block
    } */
-   /* h1,h2,h3,h4,h5,h6 {
+
+   /* Changed the font size of all the heading */
+   h1,h2,h3,h4,h5,h6 {
     font-size:100%
-   } */
-   /* a {
+   }
+   a {
     text-decoration:none
-   } */
-   /* img {
+   }
+   img {
     border:none;
     font-style:italic
-   } */
+   }
    /* html {
     -webkit-font-smoothing:antialiased
    } */
+
    /* styled the body, added background color, font-family, font size e.t.c */
    body {
     background-color:#0a0a0a;
