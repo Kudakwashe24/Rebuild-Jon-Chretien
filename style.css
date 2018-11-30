@@ -117,31 +117,36 @@
    /* @media (min-width:480px) {
     .lead {
      font-size:34px
-    } */
-   /* }
+    }
+   } */
    ul {
     margin-left:16px
-   } */
-   /* .u-list-unstyled {
+   }
+   /* emoves buttons on footer list and 0 margin as well as padding */
+   .u-list-unstyled {
     list-style:none;
     margin-left:0;
     padding-left:0
-   } */
-   /* .u-list-inline {
+   }
+
+   /* email, github and instagram are now inline */
+   .u-list-inline {
     -webkit-box-align:center;
     -ms-flex-align:center;
     align-items:center;
-    display:-webkit-box;
-    display:-ms-flexbox;
+    /* display:-webkit-box; */
+    /* display:-ms-flexbox; */
     display:flex;
-    -webkit-box-pack:start;
-    -ms-flex-pack:start;
+    /* -webkit-box-pack:start; */
+    /* -ms-flex-pack:start; */
     justify-content:flex-start
-   } */
-   /* .u-list-inline li+li {
+   }
+
+   /* Added spaces to github, instagram and email */
+   .u-list-inline li+li {
     margin-left:24px
-   } */
-   /* @media (min-width:480px) {
+   }
+   @media (min-width:480px) {
     .grid__container {
      overflow:auto
     }
@@ -149,7 +154,7 @@
      float:left;
      width:50%
     }
-   } */
+   }
    /* @supports (grid-area:auto) {
     @media (min-width:480px) {
      .grid {
