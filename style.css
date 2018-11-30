@@ -12,16 +12,17 @@
     font-weight:700;
     src:url(/fonts/vollkorn-bold.woff2) format("woff2"),url(/fonts/vollkorn-bold.woff) format("woff")
    } */
-   /* *,:after,:before {
+   *,:after,:before {
     box-sizing:border-box
-   } */
-   /* a,body,div,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,hgroup,html,img,li,p,section,span,ul {
+   }
+   /* removing margin for all the listed items */
+   a,body,div,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,hgroup,html,img,li,p,section,span,ul {
     margin:0;
     padding:0
-   } */
-   /* figcaption,figure,footer,header,hgroup,section {
+   }
+   figcaption,figure,footer,header,hgroup,section {
     display:block
-   } */
+   }
 
    /* Changed the font size of all the heading */
    h1,h2,h3,h4,h5,h6 {
@@ -49,47 +50,52 @@
     padding:40px;
     text-align:center
    }
-   /* @media (min-width:768px) {
+   @media (min-width:768px) {
     body {
      padding:56px
     }
-   } */
-   /* ::-moz-selection {
+   }
+   ::-moz-selection {
     background:#a8d1ff;
     color:#fff;
     text-shadow:none
-   } */
-   /* ::selection {
+   }
+   ::selection {
     background:#a8d1ff;
     color:#fff;
     text-shadow:none
-   } */
-   /* a {
+   }
+
+   /* Changed color of linked words */
+   a {
     color:#ff3;
     transition:color .2s ease
-   } */
-   /* a:hover {
+   }
+   /* Color changes to some sort of grey after hovering */
+   a:hover {
     color:#666
-   } */
-   /* a:active,a:focus {
+   }
+   a:active,a:focus {
     color:rgba(255,255,51,.19999999999999996)
-   } */
-   /* a>img {
+   }
+
+   /* Hovering when you go on images */
+   a>img {
     //:hidden;
     transition:opacity .3s linear
-   } */
-   /* a>img:hover {
+   }
+   a>img:hover {
     opacity:.65
-   } */
-   /* .container {
+   }
+   .container {
     margin:0 auto;
     max-width:1240px
-   } */
-   /* h1,h2 {
+   }
+   h1,h2 {
     color:#fff;
     font-size:47px;
     font-weight:700
-   } */
+   }
    /* h3 {
     font-weight:400
    } */
