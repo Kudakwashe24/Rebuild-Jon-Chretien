@@ -155,67 +155,76 @@
      width:50%
     }
    }
-   /* @supports (grid-area:auto) {
+   /* Media queries */
+
+   @supports (grid-area:auto) {
     @media (min-width:480px) {
      .grid {
       display:-ms-grid;
       display:grid;
       grid-gap:24px
-     } */
-     /* .grid-photography,.grid-projects {
+     }
+     .grid-photography,.grid-projects {
       -ms-grid-columns:(1fr)[2];
       grid-template-columns:repeat(2,1fr)
-     } */
-     /* .grid-music {
+     }
+
+     /* Music lists inline using grids */
+     .grid-music {
       -ms-grid-columns:(1fr)[4];
       grid-template-columns:repeat(4,1fr)
-     } */
-     /* .grid__item {
+     }
+     .grid__item {
       float:none;
       width:auto
-     } */
-     /* .grid_span .grid__item:nth-child(3) {
+     }
+
+     /* Photograph images next to each other besides middle one */
+     .grid_span .grid__item:nth-child(3) {
       -ms-grid-column-span:2;
       -ms-grid-column:1;
       grid-column:1/span 2
      }
-    } */
-    /* @media (min-width:992px) {
+    }
+    /* Selected work images inline and well structure */
+    @media (min-width:992px) {
      .grid-projects {
       -ms-grid-columns:(1fr)[3];
       grid-template-columns:repeat(3,1fr)
      }
     }
-   } */
-   /* @media (max-width:479px) {
+   }
+   @media (max-width:479px) {
     .grid__item {
      margin-bottom:16px;
      width:100%
     }
-   } */
-   /* img {
+   }
+   img {
     display:block;
     height:auto;
     max-width:100%
-   } */
-   /* .u-img-rounded {
+   }
+
+   /* Baby face now has border radius */
+   .u-img-rounded {
     border-radius:50%
-   } */
-   /* .u-thumb {
+   }
+   .u-thumb {
     margin-bottom:8px
-   } */
-   /* .banner {
+   }
+   .banner {
     border-bottom:3px double #666;
     margin-bottom:48px;
     padding-bottom:48px;
     text-align:center
-   } */
-   /* @media (min-width:480px) {
+   }
+   @media (min-width:480px) {
     .banner {
      margin-bottom:56px;
      padding-bottom:72px
     }
-   } */
+   }
    /* .banner__avatar {
     height:120px;
     margin:0 auto 8px;
