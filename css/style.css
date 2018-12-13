@@ -3,9 +3,19 @@
     box-sizing:border-box
    }
    /* removing margin for all the listed items */
-   div,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,hgroup,html,li,p,section,span,ul {
+  figure,h1,h2,h3,h4,h5,h6,hgroup,html,li,p,span,ul {
     margin:0;
     padding:0
+   }
+
+   div {
+      margin: 0;
+      padding: 0;
+   }
+   figcaption {
+      margin: 0;
+      padding: 0;
+      display: block;
    }
    
    figcaption,figure,footer,header,hgroup,section {
@@ -15,13 +25,14 @@
    /* Changed the font size of all the heading */
    h1,h2,h3,h4,h5,h6 {
     font-size:100%
+    
    }
    a {
     text-decoration:none;
     margin: 0;
     padding: 0;
-
    }
+
    img {
     border:none;
     font-style:italic;
@@ -87,9 +98,11 @@
     color:#fff;
     font-size:47px;
     font-weight:700
+
    }
    h3 {
     font-weight:400
+    
    }
    .heyy {
     color:#fff;
@@ -201,7 +214,9 @@
     border-bottom:3px double #666;
     margin-bottom:48px;
     padding-bottom:48px;
-    text-align:center
+    text-align:center;
+    padding: 0;
+    margin: 0;
    }
 
    /* Added line breaks to seperate sections */
@@ -224,7 +239,9 @@
    section {
     border-bottom:1px solid #666;
     margin-bottom:48px;
-    padding-bottom:48px
+    padding-bottom:48px;
+    padding: 0;
+    margin: 0;
    }
    @media (min-width:480px) {
     section {
@@ -302,7 +319,9 @@
    @media (min-width:768px) {
     .footer {
      display:flex;
-     padding-top:10px
+     padding-top:10px;
+     margin: 0;
+     padding: 0;
     }
    }
    .footer__copyright {
