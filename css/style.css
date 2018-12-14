@@ -1,12 +1,14 @@
 
-   *,:after,:before {
+   /* *,:after,:before {
     box-sizing:border-box
-   }
+   } */
+
+
    /* removing margin for all the listed items */
-  figure,h1,h2,h3,h4,h5,h6,hgroup,html,li,p,span,ul {
+  /* figure,h1,h2,h3,h4,h5,h6,hgroup,html,li,p,span,ul {
     margin:0;
     padding:0
-   }
+   } */
 
    div {
       margin: 0;
