@@ -1,347 +1,337 @@
+/* styling for the body */
+body {
+   font-family: 'Vollkorn', sans-serif;
+   margin: 0;
+   background-color: #0a0a0a;
+   color: rgb(214, 214, 214);
+   padding: 56px;
+   border-top: 13px solid #3a3a3a;
+}
 
-   /* *,:after,:before {
-    box-sizing:border-box
-   } */
+.container {
+   width: 100%;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+section {
+   margin: 50px auto;
+}
+hr {
+   border: none;
+   border-bottom: 1px solid #666666;
+}
+
+/* header styling starts here */
+header {
+   text-align: center;
+   font-size: 1.8rem;
+   padding-bottom: 48px 0 0 0;
+   margin-bottom: 48px;
+   border-top: 10px;
+}
+
+/* image styling */
+header img {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+}
+
+/* heading styling */
+header h1 {
+   font-weight: 900;
+   padding: 0;
+   margin: 20px 0 -10px 0 ;
+   color: #FFFFFF;
+   font-size: 1.65em;
+   line-height: 0.5;
+}
+
+/* paragraph styling */
+header p {
+   line-height: 1.3;
+   font-size: 2.13rem;
+   padding: 0 75px;
+   margin-bottom: 60px;
+}
+
+/* header divider */
+header hr {
+   background-color: #3a3a3a00;
+   height: 4px;
+   border-top: none;
+   border-bottom: 3px double #6f6f6f;
+   border-left: none;
+   border-right: none;
+}
+
+/* links styling */
+a {
+   text-decoration: none;
+   transition: color 150ms ease-in-out;
+}
+
+a:link {
+   color: yellow;
+}
+a:visited {
+   color: yellow;
+}
+a:hover {
+   color: grey;
+}
+a:active {
+   color: rgb(66, 33, 33);
+}
+/* header styling ends here */
 
 
-   /* removing margin for all the listed items */
-  /* figure,h1,h2,h3,h4,h5,h6,hgroup,html,li,p,span,ul {
-    margin:0;
-    padding:0
-   } */
 
-   div {
-      margin: 0;
-      padding: 0;
-   }
-   figcaption {
-      margin: 0;
-      padding: 0;
-      display: block;
-   }
-   
-   figcaption,figure,footer,header,hgroup,section {
-    display:block
-   }
+/* "SELECTED WORKS" container styling starts here. content in grid blocks */
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+   grid-row-gap: 24px;
+   grid-column-gap: 25px;
+}
 
-   /* Changed the font size of all the heading */
-   h1,h2,h3,h4,h5,h6 {
-    font-size:100%
-    
-   }
-   a {
-    text-decoration:none;
-    margin: 0;
-    padding: 0;
-   }
+.grid-item {
+   background-color:#3a3a3a00;
+   background-size: cover;
+   background-blend-mode: multiply;
+   background-position: center;
+   height: auto;
+   min-height: 300px;
+}
 
-   img {
-    border:none;
-    font-style:italic;
-    margin: 0;
-    padding: 0;
-   }
+.grid-item img:hover {
+   opacity: 0.65;
+}
 
-   /* styled the body, added background color, font-family, font size e.t.c */
+/* grid img styling starts here */
+.grid-img {
+   display: block;
+   width: auto;
+   max-height: 100%;
+   height: auto;
+}
+
+span {
+   padding-top: 3px;
+   display: block;
+   font-family: 'Helvetica';
+   font-weight: 500;
+   font-size: 0.7em;
+   color: #808080;
+}
+
+
+/* heading styling */
+h2 {
+   font-weight: 700;
+   color: #fff;
+   font-size: 2.9375rem;
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+h3 {
+   font-weight: 400;
+   color: yellow;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   font-size: 1.6em;
+}
+
+/* photography grid content styling starts here */
+.grid-container-photography {
+   grid-gap: 20px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+
+img {
+   width: auto;
+   max-width: 100%;
+   height: auto;
+}
+
+.grid-item12 {
+   grid-row: span 2;
+   grid-column: span 2;
+}
+
+
+
+/* album grid content styling starts here */
+.grid-container-albums {
+   grid-column-gap: 25px;
+   grid-row-gap: 10px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-container-albums .grid-item {
+   width: auto;
+   max-width: 100%;
+   height: auto;
+}
+
+/* album grid text styling starts here */
+.grid-container-albums  {
+   text-align: center;
+   font-size: 1.2em;
+}
+.grid-container-albums h3 {
+   font-size: 1em;
+}
+
+/* album grid content ends here */
+
+
+/* footer spacing starts here */
+footer {
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+/* footer content styling */
+nav ul {
+   display: flex;
+   padding: 0;
+   margin: 0;
+   justify-content: flex-start;
+}
+
+nav li {
+   list-style: none;
+   font-size: 1.25em;
+   margin-right: 20px;
+}
+
+.footer-container {
+   padding: 50px 0;
+}
+footer div {
+   height: auto;
+   width: 100%;
+   display: flex;
+   font-size: 1.25em;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+/* footer content styling ends here */
+
+/* responsive design starts here */
+@media (max-width: 990px) {
 
    body {
-    background-color:#0a0a0a;
-    border-top:13px solid #3a3a3a;
-    color:#ccc;
-    font-family: 'Vollkorn', sans-serif;
-    font-size:20px;
-    line-height:1.5;
-    padding:40px;
-    text-align:center;
-    margin: 0;
-    padding: 50px;
-    border-top: 13px solid #3a3a3a;
+       padding: 56px;
    }
-   @media (min-width:768px) {
-    body {
-     padding:56px
-    }
+   .grid-container {
+       grid-template-columns: repeat(2, 1fr);
+       margin: 0 auto;
+       grid-gap: 24px;
    }
-   ::-moz-selection {
-    background:#a8d1ff;
-    color:#fff;
-    text-shadow:none
+   .header p {
+       font-size: 1em;
    }
-   ::selection {
-    background:#a8d1ff;
-    color:#fff;
-    text-shadow:none
+}
+
+@media (max-width: 767px) {
+   .header p {
+       font-size: 0.8em;
+   }
+   .footer-container {
+       display: block;
+       text-align: center;
+   }
+   nav {
+       display: block;
+       text-align: center;
+       width: 100%;
+   }
+   .copyright {
+       display:block;
+       justify-content: center;
+       width:100%;
+   }
+   .grid-container-albums div {
+       text-align: center;
+       font-size: 1em;
+   }
+   footer {
+       display: block;
+       justify-content: center;
+       text-align: center;
+   }
+   nav ul {
+       justify-content: center;
+   }
+}
+
+@media (max-width: 480px) {
+
+   body {
+       padding: 40px;
    }
 
-   /* Changed color of linked words */
-   a {
-    color:#ff3;
-    transition:color .2s ease
-   }
-   /* Color changes to some sort of grey after hovering */
-   a:hover {
-    color:#666
-   }
-   a:active,a:focus {
-    color:rgba(255,255,51,.19999999999999996)
+   .header p {
+       font-size: 0.85em;    
+       padding: 0px;
+       line-height: 1.3;
    }
 
-   /* Hovering when you go on images */
-   a>img {
-    //:hidden;
-    transition:opacity .3s linear
-   }
-   a>img:hover {
-    opacity:.65
-   }
-   .container {
-    margin:0 auto;
-    max-width:1240px
-   }
-   h1,h2 {
-    color:#fff;
-    font-size:47px;
-    font-weight:700
-
-   }
-   h3 {
-    font-weight:400
-    
-   }
-   .heyy {
-    color:#fff;
-    display:inline-block;
-    font-size:47px;
-    font-weight:700
+   h2 {
+       font-weight: 700;
+       color: #fff;
+       font-size: 2.6rem;
+       text-align: center;
+       margin-bottom: 16px;
    }
 
-   /* reduces the font size, font weight e.t.c of the first paragraph */
-   .head {
-    color:#ccc;
-    font-size:32px;
-    font-weight:400;
-    line-height:1.3;
-    padding:0 32px
-   }
-  
-   ul {
-    margin-left:16px
-   }
-   /* emoves buttons on footer list and 0 margin as well as padding */
-   .u-list-unstyled {
-    list-style:none;
-    margin-left:0;
-    padding-left:0
+   header img {
+       margin: 0% auto;
    }
 
-   /* email, github and instagram are now inline */
-   .u-list-inline {
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
-    display:flex;
-    justify-content:flex-start
+   .grid-container {
+       grid-template-columns: 1fr;
    }
 
-   /* Added spaces to github, instagram and email */
-   .u-list-inline li+li {
-    margin-left:24px
+   .grid-container-photography {
+       grid-template-columns: 1fr;
    }
-   @media (min-width:480px) {
-    .grid__container {
-     overflow:auto
-    }
-    .grid-item {
-     float:left;
-     width:50%
-    }
-   }
-   /* Media queries */
 
-   @supports (grid-area:auto) {
-    @media (min-width:480px) {
-     .grid {
-      display:-ms-grid;
-      display:grid;
-      grid-gap:24px
-     }
-     .grid-photography,.grid-projects {
-      -ms-grid-columns:(1fr)[2];
-      grid-template-columns:repeat(2,1fr)
-     }
+   .grid-item12 {
 
-     /* Music lists inline using grids */
-     .grid-music {
-      -ms-grid-columns:(1fr)[4];
-      grid-template-columns:repeat(4,1fr)
-     }
-     .grid-item {
-      float:none;
-      width:auto
-     }
+       grid-column: span 1;
+   }
 
-     /* Photograph images next to each other besides middle one */
-     .grid_span .grid-item:nth-child(3) {
-      -ms-grid-column-span:2;
-      -ms-grid-column:1;
-      grid-column:1/span 2
-     }
-    }
-    /* Selected work images inline and well structure */
-    @media (min-width:992px) {
-     .grid-projects {
-      -ms-grid-columns:(1fr)[3];
-      grid-template-columns:repeat(3,1fr)
-     }
-    }
+   .grid-container-albums {
+       grid-template-columns: 1fr;
    }
-   @media (max-width:479px) {
-    .grid-item {
-     margin-bottom:16px;
-     width:100%
-    }
-   }
+
    img {
-    display:block;
-    height:auto;
-    max-width:100%
+       display: block;
+       height: auto;
+       width: 100%;
    }
-
-   /* Baby face now has border radius */
-   .u-img-rounded {
-    border-radius:50%
-   }
-   .u-super {
-    margin-bottom:8px
-   }
-   .header {
-    border-bottom:3px double #666;
-    margin-bottom:48px;
-    padding-bottom:48px;
-    text-align:center;
-    padding: 0;
-    margin: 0;
-   }
-
-   /* Added line breaks to seperate sections */
-   @media (min-width:480px) {
-    .header {
-     margin-bottom:56px;
-     padding-bottom:72px
-    }
-   }
-
-   /* baby face positioning to middle */
-   .header__avatar {
-    height:120px;
-    margin:0 auto 8px;
-    width:120px
-   }
-   .header__hello {
-    margin-bottom:-4px
-   }
-   section {
-    border-bottom:1px solid #666;
-    margin-bottom:48px;
-    padding-bottom:48px;
-    padding: 0;
-    margin: 0;
-   }
-   @media (min-width:480px) {
-    section {
-     margin-bottom:56px;
-     padding-bottom:72px
-    }
-   }
-   .section__title {
-    line-height:1.2em;
-    margin-bottom:24px
-   }
-   @media (min-width:480px) {
-    .section__title {
-     line-height:inherit;
-     margin-bottom:16px
-    }
-   }
-   .figure__supernail {
-    margin:0 auto
-   }
-   .work-info {
-    text-align:left
-   }
-   .work-info__item {
-    font-size:24px;
-    line-height:1.3
-   }
-   .work-info__item:last-child {
-    margin-bottom:0
-   }
-   @media (max-width:767px) {
-    .work-info__item {
-     margin-left:0;
-     padding-left:0
-    }
-   }
-   .work-info__super img {
-    height:100%;
-    width:100%
-   }
-   .work-info__content {
-    margin-bottom:8px
-   }
-   @media (max-width:767px) {
-    .work-info__title a:after {
-     content:"\00bb";
-     display:inline-block;
-     height:16px;
-     padding-left:4px;
-     width:16px
-    }
-   }
-   .work-info__about {
-    font-size:16px;
-    line-height:1.35em;
-    margin-bottom:4px
-   }
-   .work-info__role {
-    color:#9e9e9e;
-    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size:10px;
-    font-weight:500;
-    letter-spacing:1px;
-    text-transform:uppercase
-   }
-   .work-info__title {
-    font-size:24px;
-    margin-bottom:4px
-   }
-   @media (min-width:768px) {
-    .work-info__role,.work-info__title {
-     padding-right:4px
-    }
-   }
-   @media (min-width:768px) {
-    .footer {
-     display:flex;
-     padding-top:10px;
-     margin: 0;
-     padding: 0;
-    }
-   }
-   .footer__copyright {
-    display:flex
-   }
-   @media (min-width:768px) {
-    .footer__copyright {
-     align-items:flex-end;
-     justify-content:flex-end;
-     flex:1 1 0%
-    }
-   }
-   @media (max-width:767px) {
-    .footer__copyright,.footer__list {
-     -ms-flex-pack:center;
-     justify-content:center
-    }
+   .grid-container-albums div {
+       text-align: center;
+       font-size: 1em;
    }
    
+   footer {
+       display: block;
+       justify-content: center;
+       text-align: center;
+   }
+   nav ul {
+       justify-content: center;
+   }
+}
